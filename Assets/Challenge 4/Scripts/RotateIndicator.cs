@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class RotateIndicator : MonoBehaviour
 {
+    public float speed = .7f;
     void Update()
     {
-        transform.Rotate(new Vector3(0, 3, 0));
+        transform.Rotate(new Vector3(0, speed, 0));
     }
 }
